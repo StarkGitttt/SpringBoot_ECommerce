@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+	@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+	table {
+	  font-family: 'Poppins', sans-serif !important; 	  
+	}
+	.error-system {
+	  padding-top: 5px;
+	  color: #f33a58;
+	}
+	.success-system {
+	  padding-top: 5px;
+	  color: #5cb85c;
+	}
+	#table-product td:nth-child(2) {
+    width: 100px;
+    text-align: center;
+	}
+	#table-product td:nth-child(1),
+	#order td:nth-child(1) {
+		width: 50px;
+	}
+	#table-product td img {
+		width: 50%;
+	}
+	#table-product td a {
+		font-weight: 600;
+		color: #f44336;
+	}
+	#example1 td, #example1 th {
+		text-align: center;
+	}
+	.waiting, delivering {
+	color: #d2ac3a;
+	}	
+	.cancel {
+	color: #d23a3a;
+	}
+	.confirmed{
+		color: #0c7781;
+	}
